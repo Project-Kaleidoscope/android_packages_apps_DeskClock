@@ -44,6 +44,10 @@ class AlarmVolumePreference(context: Context?, attrs: AttributeSet?) : Preferenc
 
     private var mPreviewPlaying = false
 
+    init {
+        layoutResource = R.layout.alarm_volume_preference
+    }
+
     override fun onBindViewHolder(holder: PreferenceViewHolder) {
         super.onBindViewHolder(holder)
         val context: Context = getContext()

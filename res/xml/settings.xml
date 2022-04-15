@@ -67,7 +67,6 @@
 
         <com.android.deskclock.settings.AlarmVolumePreference
             android:key="volume_setting"
-            android:layout="@layout/alarm_volume_preference"
             android:title="@string/alarm_volume_title" />
 
         <ListPreference
